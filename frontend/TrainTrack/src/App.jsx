@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home.jsx";
 import AddWorkout from "./Pages/AddWorkout/AddWorkout.jsx";
 import Profile from "./Pages/Profile/Profile.jsx";
 import Login from "./Pages/Login/Login.jsx";
+import Button from "./components/Button/Button.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
         </main>
+          <Button label={"Cusisco e dalva cussyca"}/>
       </div>
     </BrowserRouter>
   );
