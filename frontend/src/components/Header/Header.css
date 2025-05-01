@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 .header {
   width: 100%;
 }
@@ -18,8 +20,10 @@
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between; 
+  align-items: center; 
 }
+
 
 .logo-container {
   display: flex;
@@ -28,19 +32,42 @@
 
 .logo {
   height: 60px;
-  margin-right: 10px;
+  margin-right: 6px; 
 }
 
 .brand {
-  font-size: 24px;
-  font-weight: bold;
-  color: #030303;
+  font-size: 30px;
+  font-weight:300;
+  color: #009857;
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+  justify-content: center; 
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-content {
   display: flex;
-  gap: 30px;
+  gap: 16px; 
+  align-items: center;
+}
+
+
+.nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px; 
+  background-color: #d4f5e0;
+  border-radius: 50px; 
+  color: #009857;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  height: 42px;
+}
+
+
+.nav-item:hover {
+  background-color: #c0ebd2;
 }
