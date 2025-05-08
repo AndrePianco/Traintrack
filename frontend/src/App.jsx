@@ -9,15 +9,20 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-container">
-        <Header />
-        <main className="main-content">
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/adicionar" element={<AddWorkout />} />
-            <Route path="/perfil" element={<Profile />} />
-            <Route path="/login" element={<Login />} />
-          </Routes>
-        </main>
+        {/* Se a rota não for /login, o Header será exibido */}
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          {/* O Header só será renderizado nas outras páginas */}
+          <Route
+            path="*"
+            element={
+              <>
+                <Header />
+                <Home />
+              </>
+            }
+          />
+        </Routes>
       </div>
     </BrowserRouter>
   );

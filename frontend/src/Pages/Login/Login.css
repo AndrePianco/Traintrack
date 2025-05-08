@@ -1,0 +1,115 @@
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.login-logo-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.login-title {
+  font-size: 32px;
+  color: #088140;
+  font-weight: bold;
+}
+
+.login-image {
+  width: 400px;
+  max-width: 90%;
+  margin: 20px 0;
+}
+
+.login-description {
+  font-size: 23px;
+  color: #088140;
+  text-align: left;
+  max-width: 2000px;
+  line-height: 1.5;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.login-right h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-right h4 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 2px solid #088140;
+  border-radius: 20px;
+  outline: none;
+}
+
+.login-form button {
+  background-color: #088140;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-register {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-register span {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-forgot {
+  color: #26a16a;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
